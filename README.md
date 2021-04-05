@@ -2,7 +2,7 @@ Hi, I'm Henry Essinghigh. I'm a Network Engineer at CBRE UK. I'm interested back
 
 You can contact me at the following:
 
-Twitter - https://twitter.com/essinghigh
-Email - henry@essinghigh.dev
+- Twitter - https://twitter.com/essinghigh
+- Email - henry@essinghigh.dev
 
-- Henry Essinghigh 🌠
+🌠
