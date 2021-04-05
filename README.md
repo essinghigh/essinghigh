@@ -1,5 +1,8 @@
-- 👋 Hi, I’m Henry Essinghigh
-- 👀 I’m interested in development in a multitude of languages, as well as web-development and network engineering.
-- 🌱 I’m currently learning C++
-- 💞️ I’m looking to collaborate on anything that interests me
-- 📫 Twitter: @essinghigh , Email: henry@essinghigh.dev
+Hi, I'm Henry Essinghigh. I'm a Network Engineer at CBRE UK. I'm interested backend development and Network Security. The majority of my Github will be made up of Private Repos, as I do not wish to publicise the majority of my projects.
+
+You can contact me at the following:
+
+Twitter - https://twitter.com/essinghigh
+Email - henry@essinghigh.dev
+
+- Henry Essinghigh 🌠
