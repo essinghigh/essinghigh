@@ -1,6 +1,6 @@
 # 🌠 About Me 🌠
 
-Hi, I'm Henry Essinghigh. I'm a Network Engineer at CBRE UK. I'm interested backend development and Network Security. The majority of my Github will be made up of Private Repos, as I do not wish to publicise the majority of my projects.
+Hi, I'm Henry Essinghigh. I'm a DevOps and SecOps enthusiast, currently working in the NetOps field. This Github is made up of mostly private repositories, as well as scripts that I use day-to-day in work or personal projects.
 
 You can contact me at the following:
 
