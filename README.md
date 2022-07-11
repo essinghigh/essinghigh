@@ -1,8 +1,5 @@
-# 🌠 About Me 🌠
-
-Hi, I'm Henry Essinghigh. I'm a Privacy and Security enthusiast, currently working in the Network Engineering field. This Github is made up of mostly private repositories, as well as scripts that I use day-to-day in work or personal projects.
-
-You can contact me at the following:
+Hi, I'm Henry Essinghigh.
+<br>I'm a Privacy & Security enthusiast based in London.
 
 - Twitter - https://twitter.com/essinghigh
 - Email - henry@essinghigh.dev
