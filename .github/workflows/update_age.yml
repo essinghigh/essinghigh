@@ -1,0 +1,39 @@
+name: Update Age
+
+on:
+  schedule:
+    - cron: '0 0 17 4 *'  # Runs at midnight UTC on April 17th every year
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update-age:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Needed to push changes
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update age in README.md
+        run: |
+          # Calculate current age
+          current_year=$(date +%Y)
+          age=$((current_year - 2003))
+          
+          # Replace the age number before "year old" with the calculated age
+          sed -i "s/\([0-9]\+\) year old/$age year old/" README.md
+          
+          # Configure git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Commit and push if there are changes
+          if git diff --quiet; then
+            echo "No changes to commit"
+          else
+            git add README.md
+            git commit -m "Update age to $age"
+            git push
+          fi
