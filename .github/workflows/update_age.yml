@@ -18,9 +18,20 @@ jobs:
 
       - name: Update age in README.md
         run: |
-          # Calculate current age
+          # Calculate current age based on DOB: April 17, 2003
+          birth_year=2003
+          birth_month=4
+          birth_day=17
+          
           current_year=$(date +%Y)
-          age=$((current_year - 2003))
+          current_month=$(date +%m)
+          current_day=$(date +%d)
+          
+          if [ "$current_month" -gt "$birth_month" ] || [ "$current_month" -eq "$birth_month" -a "$current_day" -ge "$birth_day" ]; then
+            age=$((current_year - birth_year))
+          else
+            age=$((current_year - birth_year - 1))
+          fi
           
           # Replace the age number before "year old" with the calculated age
           sed -i "s/\([0-9]\+\) year old/$age year old/" README.md
